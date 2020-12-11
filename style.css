@@ -1,0 +1,66 @@
+.wp-block-howmuch-cards-container {
+	max-width: 1590px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.wp-block-howmuch-cards-container .howmuch-cards-container-inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -30px -30px 0 0 !important;
+	justify-content: center;
+}
+
+.howmuch-cards-container-inner .wp-block-howmuch-card {
+	min-width: 260px;
+	flex: 0 0 calc(100% / 6);
+	padding: 30px 30px 0 0;
+}
+
+.howmuch-card-link {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+.howmuch-card-link:hover {
+	color: inherit;
+}
+
+.howmuch-card-link[href]:hover .howmuch-card-title {
+	text-decoration: none;
+}
+
+.howmuch-card-image {
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+}
+
+.howmuch-card-image::before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.howmuch-card-title {
+	text-align: center;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: underline;
+	margin-bottom: 0.25em;
+}
+
+.howmuch-card-lead {
+	font-family: "Fira Sans", sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}

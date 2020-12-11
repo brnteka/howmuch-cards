@@ -1,0 +1,15 @@
+[data-type="howmuch/cards-container"] .block-editor-block-list__layout {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+[data-type="howmuch/cards-container"] .block-list-appender {
+	flex: 0 0 100%;
+}
+
+.wp-block[data-type="howmuch/card"] {
+	width: 260px;
+	margin-left: 0;
+	margin-right: 0;
+}
